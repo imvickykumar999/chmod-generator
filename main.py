@@ -35,3 +35,12 @@ print(f'The generated chmod command is: {chmod_command}')
 # Execute the chmod command
 os.system(chmod_command)
 
+
+''' OUTPUT
+newbol7@newbol7-HP-ProBook-430-G3:~/Documents/Blogs$ python3 main.py 
+Enter permissions for owner (e.g., rwx, rw-, r--): rwx
+Enter permissions for group (e.g., rwx, rw-, r--): ---
+Enter permissions for others (e.g., rwx, rw-, r--): ---
+Enter the filename: Screenshot from 2024-07-29 12-21-28.png
+The generated chmod command is: chmod 700 "Screenshot from 2024-07-29 12-21-28.png"
+'''
